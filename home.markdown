@@ -15,4 +15,4 @@ git@192.168.1.109:guodao/tech.git
 git@192.168.1.109:guodao/tech.wiki.git
 
 -------------------------------------------
-(git)
+[git](git)
