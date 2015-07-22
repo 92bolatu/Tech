@@ -37,12 +37,16 @@ Git
 	#git status
 	
 **远程仓库**
+
+	#git remote
+	#git remote -v
 	
 	# git remote add origin git@192.168.1.109:lwt/tech.git
 	# git push -u origin master	
+	# git pull origin
 
 	# git remote add gitlan git@192.168.1.12:liuwentao/tech.git
 	# git push -u gitlan master	
-
+	# git pull gitlan
 
 gitlan
