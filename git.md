@@ -31,6 +31,7 @@ Git
 **本地提交**	
 
 	# git commit -m "init"
+	# git commit -a -m "push 2 remote"
 
 **忽略文件**	
 
