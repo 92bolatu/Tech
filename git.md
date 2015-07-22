@@ -43,3 +43,6 @@ Git
 
 	# git remote add gitlan git@192.168.1.12:liuwentao/tech.git
 	# git push -u gitlan master	
+
+
+gitlan
