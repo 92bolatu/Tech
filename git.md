@@ -1,14 +1,19 @@
-[]
+![git logo](http://git-scm.com/images/logo@2x.png =120x)
 
 Git
 ===
 -------------------------
 ## Link
-[Git官网](http://git-scm.com/)
+- [Git官网](http://git-scm.com/)
 
-[廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [Git Documentation](http://git-scm.com/doc)
 
-[GitLab](https://about.gitlab.com/)
+
+- [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+- [GitLab](https://about.gitlab.com/)
+
+
 
 ## Git
 
@@ -36,17 +41,31 @@ Git
 	
 	#git status
 	
-**远程仓库**
+### remote
 
-	#git remote
-	#git remote -v
+git-remote - Manage set of tracked repositories
+
+<http://git-scm.com/docs/git-remote>
+
+	# git remote [-v | --verbose]
+	$ git remote -v
 	
-	# git remote add origin git@192.168.1.109:lwt/tech.git
-	# git push -u origin master	
-	# git pull origin
+	# git remote add <name> <url>
+	$ git remote add origin git@192.168.1.109:lwt/tech.git
+	$ git remote add gitlan git@192.168.1.12:liuwentao/tech.git
+	
+	# git remote rename <old> <new>
+	$ git remote rename gitlan gitlanwiki
+	
+	# git remote remove <name>
+	$ git remote remove gitlan
+	$ git remote rm gitlan
+	
+	# git push [-u | --set-upstream] [name] [branch]
+	$ git push -u origin master	
+	$ git push (to defult via -u)
+    $ git push gitlan [master]
 
-	# git remote add gitlan git@192.168.1.12:liuwentao/tech.git
-	# git push -u gitlan master	
-	# git pull gitlan
+	# git pull [options] [<repository> [<refspec>...]]
+	$ git pull gitlan	 
 
-gitlan
