@@ -65,6 +65,8 @@ git-remote - Manage set of tracked repositories
 	$ git push -u origin master	
 	$ git push (to defult via -u)
     $ git push gitlan [master]
+    $ git push origin && git push wiki
+    
 
 	# git pull [options] [<repository> [<refspec>...]]
 	$ git pull gitlan	 
