@@ -68,6 +68,13 @@ A text file named **.gitignore** suppresses accidental versioning of files and p
 Lists all ignored files in this project
 	
 	$ git ls-files --other
+
+快速创建和编辑忽略文件
+	
+	# touch .gitignore	
+	# echo .DS_Store>>.gitignore
+	# echo *.log>>.gitignore
+    # cat gitignore
 	
 ### remote
 
