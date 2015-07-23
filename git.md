@@ -47,7 +47,7 @@ Git
 
 	
 	#git status
-### Delete
+### delete
 
 	
 	# rm <file>	 // 直接删除		
@@ -89,13 +89,13 @@ git-remote - Manage set of tracked repositories
 	$ git remote remove gitlan
 	$ git remote rm gitlan
 	
-	# git push [-u | --set-upstream] [name] [branch]
+	# git push [-u | --set-upstream] [name] [branch][-f | --force]
 	$ git push -u origin master	
 	$ git push (to defult via -u)
     $ git push gitlan [master]
+    $ git push github master -f
     $ git push origin && git push wiki
     
-
 	# git pull [options] [<repository> [<refspec>...]]
 	$ git pull gitlan	
 
