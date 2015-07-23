@@ -48,10 +48,13 @@ Git
 	
 	#git status
 ### Delete
-		
-	# git rm <file>
-	# git commit -m "(git rm 会删除工作区本地文件，将删除动作加入工作区)"
+
 	
+	# rm <file>	 // 直接删除		
+	
+	# git rm <file> // 或者通过git删除 	
+	
+	# git commit -m "工作区缺少的文件会被认定为从仓库删除" // 提交变更
 	
 	
 ### gitignore 
