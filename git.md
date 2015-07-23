@@ -43,8 +43,15 @@ Git
 	$ git commit -a -m "(-a mean add all changed files to commit)"
 
 **查看状态**
+
 	
 	#git status
+### Delete
+		
+	# git rm <file>
+	# git commit -m "(git rm 会删除工作区本地文件，将删除动作加入工作区)"
+	
+	
 	
 ### gitignore 
 	
