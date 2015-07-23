@@ -37,10 +37,11 @@ Git
 	# git add src
 	# git add .	
 
-**本地提交**	
+### commit
 
-	$ git commit -m "init"
-	$ git commit -a -m "(-a mean add all changed files to commit)"
+	$ git commit -m "inited"
+	$ git commit -a -m "(-a mean add all changed <no add/del> files to commit)"
+	$ git commit -a -m this-the-commit-content
 
 **查看状态**
 
