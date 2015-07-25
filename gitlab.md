@@ -40,6 +40,15 @@ GitLab
 
 	Password: 5iveL!fe	
 
+**修改端口**
+	
+	// edit
+	# vi /etc/gitlab/gitlab.rb
+	external_url 'http://192.168.1.109:8001'
+	  
+	//save
+	# gitlab-ctl reconfigure  
+
 **运行状态**
 
 	# gitlab-ctl status

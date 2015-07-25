@@ -45,7 +45,7 @@ An enhanced, drop-in replacement for MySQL.
 **常用操作**
 
 	//连接到服务器，省略的参数用默认值
-	# mysql -h 192.168.1.12 -P 3306 -u root -p
+	# mysql -h 192.168.1.12 -P 3306 -u root -p [database]
 	
 	// 一般命令Sql命令分号结尾	
 	MariaDB [db]> show databases;
