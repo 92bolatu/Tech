@@ -4,12 +4,19 @@ Yeoman
 
 [http://yeoman.io/learning/index.html]()
 
+**node 配置/查看 插件目录**
+	$ npm config get prefix
+	$ npm config get cache
+	$ npm config set prefix "D:\Program Files\nodejs\node_global"
+	$ npm config set cache "D:\Program Files\nodejs\node_cache"
 
-    // 安装yeoman和相关依赖
+	// 安装yeoman和相关依赖
 	$ npm install -g yo bower grunt-cli gulp
 	
 	// 安装生成器 angular-fullstack
 	$ npm install -g generator-angular-fullstack
+	// 安装指定版本的生成器
+	$ npm install -g generator-angular-fullstack@2.1.1
 	
 	// 执行yo配置项目
 	$ yo
@@ -76,16 +83,6 @@ Yeoman
     	
     };
 
-
-**node 插件目录**
-
---------------------
-
-+ /usr/local/lib/node_modules/generator-angular-fullstack
-
-+ /usr/local/lib/node_modules/generator-webapp
-
-+ /usr/local/lib/node_modules/generator-angular
 
 
 ###yeoman project init
