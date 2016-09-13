@@ -5,6 +5,7 @@ Yeoman
 [http://yeoman.io/learning/index.html]()
 
 **node 配置/查看 插件目录**
+
 	$ npm config get prefix
 	$ npm config get cache
 	$ npm config set prefix "D:\Program Files\nodejs\node_global"
